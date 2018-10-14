@@ -148,13 +148,13 @@ qa: fmtcheck test vet lint coverage cyclo ineffassign misspell astscan
 deps:
 	GOPATH=$(GOPATH) go get $(go list ./... | grep -v /vendor/)
 	GOPATH=$(GOPATH) go get github.com/inconshreveable/mousetrap
-	GOPATH=$(GOPATH) go get github.com/golang/lint/golint
+	GOPATH=$(GOPATH) go get golang.org/x/lint/golint
 	GOPATH=$(GOPATH) go get github.com/jstemmer/go-junit-report
 	GOPATH=$(GOPATH) go get github.com/axw/gocov/gocov
 	GOPATH=$(GOPATH) go get github.com/fzipp/gocyclo
 	GOPATH=$(GOPATH) go get github.com/gordonklaus/ineffassign
 	GOPATH=$(GOPATH) go get github.com/client9/misspell/cmd/misspell
-	GOPATH=$(GOPATH) go get github.com/HewlettPackard/gas
+	GOPATH=$(GOPATH) go get github.com/securego/gosec/cmd/gosec/...
 	GOPATH=$(GOPATH) go get gopkg.in/check.v1
 
 # Remove any build artifact
