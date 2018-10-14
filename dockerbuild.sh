@@ -4,7 +4,7 @@
 #
 # Build the software inside a Docker container
 #
-# @author      Nicola Asuni <nicola.asuni@miracl.com>
+# @author      Nicola Asuni <info@tecnick.com>
 # ------------------------------------------------------------------------------
 
 # NOTES:

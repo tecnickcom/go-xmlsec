@@ -1,6 +1,6 @@
 # MAKEFILE
 #
-# @author      Nicola Asuni <nicola.asuni@miracl.com>
+# @author      Nicola Asuni <info@tecnick.com>
 # @link        https://github.com/miracl/go-xmlsec
 # ------------------------------------------------------------------------------
 
