@@ -1,9 +1,9 @@
 # go-xmlsec
 
-[![Documentation](https://godoc.org/github.com/miracl/go-xmlsec?status.png)](http://godoc.org/github.com/miracl/go-xmlsec) 
-[![Master Build Status](https://secure.travis-ci.org/miracl/go-xmlsec.png?branch=master)](https://travis-ci.org/miracl/go-xmlsec?branch=master)
-[![Master Coverage Status](https://coveralls.io/repos/miracl/go-xmlsec/badge.svg?branch=master&service=github)](https://coveralls.io/github/miracl/go-xmlsec?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/miracl/go-xmlsec)](https://goreportcard.com/report/github.com/miracl/go-xmlsec)
+[![Documentation](https://godoc.org/github.com/tecnickcom/go-xmlsec?status.png)](http://godoc.org/github.com/tecnickcom/go-xmlsec) 
+[![Master Build Status](https://secure.travis-ci.org/tecnickcom/go-xmlsec.png?branch=master)](https://travis-ci.org/tecnickcom/go-xmlsec?branch=master)
+[![Master Coverage Status](https://coveralls.io/repos/tecnickcom/go-xmlsec/badge.svg?branch=master&service=github)](https://coveralls.io/github/tecnickcom/go-xmlsec?branch=master)
+[![Go Report Card](https://goreportcard.com/badge/github.com/tecnickcom/go-xmlsec)](https://goreportcard.com/report/github.com/tecnickcom/go-xmlsec)
 
 
 A partial wrapper for [xmlsec](https://www.aleksey.com/xmlsec). 
@@ -47,12 +47,12 @@ As seems to be the case for many things in the XMLish world, the xmldsig and xml
 This package uses cgo to wrap libxmlsec. As such, you'll need libxmlsec headers and a C compiler to make it work. On linux, this might look like:
 
     $ apt-get install libxml2-dev libxmlsec1-dev pkg-config
-    $ go get github.com/miracl/go-xmlsec
+    $ go get github.com/tecnickcom/go-xmlsec
 
 On Mac with homebrew, this might look like:
 
     $ brew install libxmlsec1 libxml2 pkg-config
-    $ go get github.com/miracl/go-xmlsec
+    $ go get github.com/tecnickcom/go-xmlsec
 
 # Static Linking
 

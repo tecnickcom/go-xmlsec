@@ -1,7 +1,7 @@
 # MAKEFILE
 #
 # @author      Nicola Asuni <info@tecnick.com>
-# @link        https://github.com/miracl/go-xmlsec
+# @link        https://github.com/tecnickcom/go-xmlsec
 # ------------------------------------------------------------------------------
 
 # List special make targets that are not associated with files
@@ -11,7 +11,7 @@
 SHELL=/bin/bash
 
 # CVS path (path to the parent dir containing the project)
-CVSPATH=github.com/miracl/go-xmlsec
+CVSPATH=github.com/tecnickcom/go-xmlsec
 
 # Project vendor
 VENDOR=miracl
