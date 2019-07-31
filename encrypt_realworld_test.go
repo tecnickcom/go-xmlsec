@@ -189,5 +189,5 @@ func (testSuite *XmlencRealWorldTest) TestInvalid(c *C) {
 </X>
 `)
 	_, err = Decrypt(testSuite.Key, docStr)
-	c.Assert(err, ErrorMatches, ".*obj=EncryptionMethod.*")
+	c.Assert(err, ErrorMatches, ".*=EncryptionMethod.*")
 }
